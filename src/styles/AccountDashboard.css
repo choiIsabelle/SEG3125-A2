@@ -1,0 +1,126 @@
+/* Layout */
+.dashboard-container {
+    display: flex;
+    border: 1px solid #ccc;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 250px;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    background: #fff;
+  }
+  
+  .sidebar h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .menu li {
+    padding: 10px;
+    border: 1px solid #aaa;
+    margin-bottom: 5px;
+    background: white;
+    cursor: pointer;
+  }
+
+  .menu li:hover {
+    background-color: #9ba8ff59;
+  }
+  
+  .menu li.active {
+    background-color: #9ba8ff59;
+  }
+  
+  .book-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #000;
+    background: #fff;
+    cursor: pointer;
+  }
+  .book-btn:hover {
+    background-color: #9ba8ff59;
+  }
+  
+  /* Main content */
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .main-content h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Reminder */
+  .reminder-box {
+    background: #eef0ff;
+    border: 2px solid #4b65d6;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .highlight {
+    color: #2f44d1;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  /* Table */
+  .appointments-table {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+  
+  .table-header, .table-row {
+    display: grid;
+    grid-template-columns: 100px 150px 1fr;
+    align-items: center;
+  }
+  
+  .table-header {
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .cell {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .selected {
+    background-color: #9ba8ff59;
+  }
+  
+  .notes-btn {
+    margin-top: 10px;
+    margin-left: 30px;
+    background: #d9ddf8;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+  

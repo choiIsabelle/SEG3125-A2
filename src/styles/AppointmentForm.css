@@ -1,0 +1,87 @@
+.appointment-container {
+    max-width: 900px;
+
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+    
+  .form-content {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .left-section {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .left-section label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .left-section textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: inherit;
+    border: 1px solid #999;
+    border-radius: 2px;
+    resize: vertical;
+    box-sizing: border-box;
+  }
+  
+  .right-section {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .input-group input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #999;
+    border-radius: 2px;
+    box-sizing: border-box;
+  }
+
+  .appointment-notes {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #ccc;
+  }
+  
+  .book-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #2f44d1;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.2s ease;
+  }
+  
+  .book-btn:hover {
+    background-color: #1d2bb6;
+  }
+  

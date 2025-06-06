@@ -1,0 +1,36 @@
+.confirmation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .checkmark-circle {
+    background-color: #2f44d1;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .checkmark-icon {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .confirmation-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .confirmation-text .highlight {
+    color: #2f44d1;
+  }
+  
