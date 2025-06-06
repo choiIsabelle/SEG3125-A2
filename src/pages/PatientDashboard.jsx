@@ -16,7 +16,6 @@ export default function AccountDashboard() {
         <BookingPortal/>
     ) : (
         <div className="dashboard-container">
-            {/* Sidebar */}
             <div className="sidebar">
                 <h2>My Account</h2>
                 <ul className="menu">

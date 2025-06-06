@@ -2,6 +2,7 @@
     display: flex;
     padding: 2rem;
     align-items: center;
+    background-color: #ffffff;
     gap: 2rem;
     font-family: Arial, sans-serif;
     flex-direction: column;
