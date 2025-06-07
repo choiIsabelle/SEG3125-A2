@@ -4,6 +4,7 @@
     align-items: center;
     background-color: #ffffff;
     gap: 2rem;
+    border-radius: 10px;
     font-family: Arial, sans-serif;
     flex-direction: column;
   }

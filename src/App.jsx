@@ -7,6 +7,7 @@ import { AppProvider } from '@shopify/polaris';
 import { PatientPortal } from './pages/PatientPortal';
 import { AboutUsSection } from './components/AboutUsSection';
 import ContactInformation from './components/ContactInformation';
+import Footer from './components/Footer';
 
 function App() {
   
@@ -25,6 +26,7 @@ function App() {
     <AboutUsSection />
   
     <LandingPage/>
+    <Footer />
     </AppProvider>
   )
 }

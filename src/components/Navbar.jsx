@@ -4,7 +4,7 @@ import { InfoNav } from './InfoNav';
 import { ChevronDownIcon  } from './ChevronDownIcon';
 
 const Nav = styled.nav`
-    background-color:#2f44d1;
+    background-color: #2f44d1;
     color: #fff;
     margin: 0;
     padding: 10px 20px;
@@ -16,7 +16,7 @@ const NavList = styled.ul`
     margin: 0;
     padding: 0;
     gap: 30px; 
-    justify-content: center; /* Center horizontally */
+    justify-content: center;
 `;
 
 const NavItem = styled.li`

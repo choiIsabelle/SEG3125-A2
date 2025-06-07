@@ -12,6 +12,13 @@ const BookingPortalContainer = styled.div`
     flex-direction: column;
     align-items: center;
     padding-bottom: 1rem;
+    margin-top: 2rem;
+    `
+const BookingStepsContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
     `
 
 export const BookingPortal = () => {
@@ -34,9 +41,11 @@ export const BookingPortal = () => {
 
     return (
         <BookingPortalContainer>
-            {renderStepContent()}
-            { (currentStep != 3 && (currentStep < 4)) && <NextButton content={"Next ➤"} handleOnClick={() => setCurrentStep(currentStep + 1)} />}
-            { (currentStep == 3 ) && <NextButton content={"Submit Booking ➤"} handleOnClick={() => setCurrentStep(currentStep + 1)} />}
+            <BookingStepsContainer>
+                {renderStepContent()}
+                { (currentStep != 3 && (currentStep < 4)) && <NextButton content={"Next ➤"} handleOnClick={() => setCurrentStep(currentStep + 1)} />}
+                { (currentStep == 3 ) && <NextButton content={"Submit Booking ➤"} handleOnClick={() => setCurrentStep(currentStep + 1)} />}
+            </BookingStepsContainer>
 
         </BookingPortalContainer>
     );
