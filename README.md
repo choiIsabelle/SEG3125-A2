@@ -1,3 +1,16 @@
+# SEG 3125 Assignment 2: Service Website
+
+## Kiki's Veterinary Clinic
+
+## Storyboard
+![image](https://github.com/user-attachments/assets/1e3de581-d8f7-4e78-bce6-7ddd8e41071a)
+
+## Demo
+![SEG3125_A2_1](https://github.com/user-attachments/assets/4c4b9688-d7b6-4de1-8da9-650a2a6e91a5)
+
+
+# Technical Specifications
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
