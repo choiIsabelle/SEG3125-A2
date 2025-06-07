@@ -1,4 +1,4 @@
-import '../styles/PatientPortal.css';
+import '../styles/patientPortal.css';
 import React from 'react';
 import PatientDashboard from './PatientDashboard';
 import styled from 'styled-components';
