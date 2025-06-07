@@ -5,6 +5,8 @@ import enTranslations from '@shopify/polaris/locales/en.json';
 import { Navbar } from './components/Navbar'
 import { AppProvider } from '@shopify/polaris';
 import { PatientPortal } from './pages/PatientPortal';
+import { AboutUsSection } from './components/AboutUsSection';
+import ContactInformation from './components/ContactInformation';
 
 function App() {
   
@@ -19,6 +21,8 @@ function App() {
     {currentPage === 'home' && <PatientPortal />}
     {currentPage === 'services' && <PatientPortal />}
     {currentPage === 'patientPortal' && <PatientPortal />}
+    <ContactInformation />
+    <AboutUsSection />
   
     <LandingPage/>
     </AppProvider>

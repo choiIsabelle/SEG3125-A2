@@ -11,7 +11,7 @@ const StyledText = styled.p`
 `;
 
 const BackgroundContainer = styled.div`
-    background-image: url('/HeadingImage.jpg');
+    background-image: url('/HeadingImage.png');
     background-size: cover;
     background-position: center;
     min-height: 100vh;
