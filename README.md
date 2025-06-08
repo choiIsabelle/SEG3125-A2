@@ -1,6 +1,7 @@
 # SEG 3125 Assignment 2: Service Website
 
 ## Kiki's Veterinary Clinic
+[Live deployment link hosted on Cloudflare pages ](https://seg3125-a2-0.pages.dev/)
 
 ## Storyboard
 ![image](https://github.com/user-attachments/assets/1e3de581-d8f7-4e78-bce6-7ddd8e41071a)
